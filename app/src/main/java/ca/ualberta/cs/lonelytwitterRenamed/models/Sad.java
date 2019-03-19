@@ -1,13 +1,22 @@
 package ca.ualberta.cs.lonelytwitterRenamed.models;
 
-public class Sad extends MoodObject {
+public class Sad {
+    private String date;
 
     public Sad() {
-        super();
+        this.date = "today"; // default date if none is specified
     }
 
     public Sad(String d) {
-        super(d);
+        this.date = d;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
     }
 
     @Override

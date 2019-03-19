@@ -1,13 +1,22 @@
 package ca.ualberta.cs.lonelytwitterRenamed.models;
 
-public class Happy extends MoodObject {
+public class Happy {
+    private String date;
 
     public Happy() {
-        super();
+        this.date = "today"; // default date if none is specified
     }
 
     public Happy(String d) {
-        super(d);
+        this.date = d;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
     }
 
     @Override
