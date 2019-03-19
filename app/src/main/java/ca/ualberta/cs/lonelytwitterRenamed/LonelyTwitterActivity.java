@@ -1,4 +1,4 @@
-package ca.ualberta.cs.lonelytwitter;
+package ca.ualberta.cs.lonelytwitterRenamed;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
