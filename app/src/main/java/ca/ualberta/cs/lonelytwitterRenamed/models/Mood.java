@@ -3,7 +3,7 @@ package ca.ualberta.cs.lonelytwitterRenamed.models;
 public abstract class Mood {
     protected String date;
 
-    public String getDate() {
+    public String retrieveDate() {
         return date;
     }
 

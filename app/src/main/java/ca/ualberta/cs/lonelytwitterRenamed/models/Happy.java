@@ -12,6 +12,6 @@ public class Happy extends Mood {
 
     @Override
     public String toString() {
-        return "I am feeling happy on " + this.getDate();
+        return "I am feeling happy on " + this.retrieveDate();
     }
 }
