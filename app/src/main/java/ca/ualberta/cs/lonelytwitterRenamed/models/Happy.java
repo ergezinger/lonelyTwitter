@@ -1,7 +1,6 @@
 package ca.ualberta.cs.lonelytwitterRenamed.models;
 
-public class Happy {
-    private String date;
+public class Happy extends Mood {
 
     public Happy() {
         this.date = "today"; // default date if none is specified
@@ -9,14 +8,6 @@ public class Happy {
 
     public Happy(String d) {
         this.date = d;
-    }
-
-    public String getDate() {
-        return date;
-    }
-
-    public void setDate(String date) {
-        this.date = date;
     }
 
     @Override
